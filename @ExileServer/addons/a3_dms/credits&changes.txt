@@ -1,0 +1,3 @@
+the file "fn_SpawnNonPersistentVehicle.sqf" was created by eraser1 ( https://github.com/Defent/DMS_Exile )
+
+- added support for disabling thermals on blacklisted vehicles
