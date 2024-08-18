@@ -10,13 +10,14 @@ if you use the a3_dms missions system replace a3_dms\scripts\fn_SpawnNonPersiste
 
 to add support for addition mods find where the vehicle is created and modify below to fit it
 
+```
 private _vehicleClassName = typeOf _vehicleObject;
 
 if (_vehicleClassName in getArray(missionConfigFile >> "CfgThermalOptions" >> "blacklistedThermals")) then 
 {
 	_vehicleObject disableTIEquipment true;
 };
-
+```
 
 
 # License:
