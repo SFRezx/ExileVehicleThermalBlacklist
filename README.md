@@ -22,5 +22,5 @@ if (_vehicleClassName in getArray(missionConfigFile >> "CfgThermalOptions" >> "b
 
 # License:
 This work is protected by [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). By using, downloading, or copying any of the work contained, you agree to the license included.
-
+# Credits
 the original "fn_SpawnNonPersistentVehicle.sqf" file was created by eraser1 ( https://github.com/Defent/DMS_Exile ) modified to add support for disabling thermals on blacklisted vehicles
